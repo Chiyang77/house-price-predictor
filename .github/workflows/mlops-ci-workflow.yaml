@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  e2e_mlops_workflow:
+  workflow:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
